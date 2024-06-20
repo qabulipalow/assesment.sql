@@ -65,14 +65,15 @@ def print_everything():
 #main code loop
 while True:
     user_input = input(
-"""      
+""" 
+Welcome to my shoe database!     
 What would you like to do?
-1. Print all shoes and information
-2. Print all shoes ascending in price
-3. Print all shoes and their price and material
-4. Print everything
-5. Cat
-6. Exit
+1. Print all shoes and information.
+2. Print all shoes ascending in price.
+3. Print all shoes and their price and material.
+4. Print everything.
+5. Cat.
+6. Exit.
 """)
     if user_input == "1":
         print_all_shoes()
@@ -108,9 +109,10 @@ What would you like to do?
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 """)
     elif user_input == "6":
+        print("You have exited.")
         break
     else:
-        print("That was not an option\n")
+        print("That was not an option.\n")
     #if its 4
 
     #if its' x: exit
